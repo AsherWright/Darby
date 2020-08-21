@@ -15,11 +15,11 @@ const PROMPT_TO_RESPONSES = {
 }
 
 const PROMPT_TO_VIDEOS = {
-    "hey darby, how did it all start?": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d1.png",
+    "hey darby, how did it all start?": "https://i.ibb.co/pbWFpVD/D5.png",
     "seriously, what actual food do you like?": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d2.png",
     "yummy... darby what else did you do all day other than eat?": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d3.png",
-    "darby... :man-facepalming:": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d4.png",
-    "sure.": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d5.png",
+    "it looks like your days weren’t sparse at all...": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d4.png",
+    "darby... :man-facepalming:": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d5.png",
     "?": "https://files.slack.com/files-pri/T675XNKV2-F0192U8F95L/download/d6.png"
 }
 
@@ -31,7 +31,11 @@ function respondToEndOfYearVideo(text, channel) {
     }
 
     if (cleanedText in PROMPT_TO_VIDEOS) {
-        slackAction.sendMessage(PROMPT_TO_VIDEOS[cleanedText], channel, false)
+        slackAction.sendImage(
+            PROMPT_TO_VIDEOS[cleanedText],
+            channel,
+            "TEST"
+        )
     }
 }
 

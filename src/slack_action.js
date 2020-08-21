@@ -3,6 +3,27 @@
 const slack = require("slack");
 const config = require("./config");
 
+function sendImage(image_url, channel, text) {
+  slack.chat.postMessage(
+    {
+      token: config("BOT_USER_TOKEN"),
+      channel: channel,
+      blocks: [
+        {
+          "type": "image",
+          "title": {
+            "type": "plain_text",
+            "text": text
+          },
+          "block_id": "image4",
+          "image_url": image_url,
+          "alt_text": "DARBY SENDS YOU A PHOTO TO EXPLAIN"
+        }],
+      text: "TEST"
+    }
+  )
+}
+
 function sendMessage(text, channel, upperCase = true) {
   slack.chat.postMessage(
     {
@@ -100,6 +121,7 @@ function openDmWithUser(userId, callback) {
 }
 
 module.exports = {
+  sendImage: sendImage,
   sendMessage: sendMessage,
   addEmoji: addEmoji,
   getUsersList: getUsersList,
