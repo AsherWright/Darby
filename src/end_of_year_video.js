@@ -18,7 +18,7 @@ const PROMPT_TO_VIDEOS = {
     "hey darby, how did it all start?": ["Let me show you.", "https://i.ibb.co/6tN7TL9/D1.png"],
     "seriously, what actual food do you like?": ["Here:", "https://i.ibb.co/gRQcJzq/D2.png"],
     "yummy... darby what else did you do all day other than eat?": [":tada:", "https://i.ibb.co/PMc79SW/D3.png"],
-    "it looks like your days weren’t sparse at all...": ["Look at my friends", "https://i.ibb.co/hC4h5Lb/D4.png"],
+    "it looks like your days weren't sparse at all...": ["Look at my friends", "https://i.ibb.co/hC4h5Lb/D4.png"],
     "darby... :man-facepalming:": ["This should be better", "https://i.ibb.co/zQpsHn2/D5.png"]
 }
 
