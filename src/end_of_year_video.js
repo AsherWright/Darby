@@ -19,8 +19,7 @@ const PROMPT_TO_VIDEOS = {
     "seriously, what actual food do you like?": ["Here:", "https://i.ibb.co/gRQcJzq/D2.png"],
     "yummy... darby what else did you do all day other than eat?": [":tada:", "https://i.ibb.co/PMc79SW/D3.png"],
     "it looks like your days weren’t sparse at all...": ["Look at my friends", "https://i.ibb.co/hC4h5Lb/D4.png"],
-    "darby... :man-facepalming:": ["This should be better", "https://i.ibb.co/zQpsHn2/D5.png"],
-    "?": ["I will miss you", "https://i.ibb.co/c3HWJjT/D6.png"]
+    "darby... :man-facepalming:": ["This should be better", "https://i.ibb.co/zQpsHn2/D5.png"]
 }
 
 function respondToEndOfYearVideo(text, channel) {
