@@ -15,12 +15,12 @@ const PROMPT_TO_RESPONSES = {
 }
 
 const PROMPT_TO_VIDEOS = {
-    "hey darby, how did it all start?": "https://i.ibb.co/pbWFpVD/D5.png",
-    "seriously, what actual food do you like?": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d2.png",
-    "yummy... darby what else did you do all day other than eat?": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d3.png",
-    "it looks like your days weren’t sparse at all...": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d4.png",
-    "darby... :man-facepalming:": "https://files.slack.com/files-pri/T675XNKV2-F019ZFM2M2L/download/d5.png",
-    "?": "https://files.slack.com/files-pri/T675XNKV2-F0192U8F95L/download/d6.png"
+    "hey darby, how did it all start?": "https://i.ibb.co/84vHqZS/D1.png",
+    "seriously, what actual food do you like?": "https://i.ibb.co/Ldk75nX/D2.png",
+    "yummy... darby what else did you do all day other than eat?": "https://i.ibb.co/BzW5WSj/D3.png",
+    "it looks like your days weren’t sparse at all...": "https://i.ibb.co/NsZGbqg/D4.png",
+    "darby... :man-facepalming:": "https://i.ibb.co/pbWFpVD/D5.png",
+    "?": "https://i.ibb.co/drrcPVP/D6.png"
 }
 
 function respondToEndOfYearVideo(text, channel) {
